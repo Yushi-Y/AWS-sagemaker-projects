@@ -1,2 +1,2 @@
 # AWS-SageMaker-Projects
-AWS SageMaker Notebooks from the official AWS course and the Udemy course for AWS ML Speciality.
+AWS SageMaker Notebooks from the official AWS ML Learning Plan and the Udemy course for AWS ML Speciality. Also include some other ML projects built using Amazon EC2 and EMR.
