@@ -1,1 +1,1 @@
-# Deploy a custom CNN model from Keras using EC2 and SageMaker
+# Implement a custom CNN model for MINST classification using Keras on EC2 and SageMaker
