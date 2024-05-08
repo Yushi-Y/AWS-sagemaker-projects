@@ -1,6 +1,6 @@
 # AWS-SageMaker-Projects
 
-This repository contains my experiments with both built-in and custom machine learning algorithms using SageMaker Notebooks. These notebooks are adapted from various resources including the official AWS ML Learning Plan, Udemy's AWS ML Speciality course, and other AWS online resources.
+This repository contains my experiments with both built-in and custom machine learning algorithms using SageMaker Notebooks. These notebooks are adapted from the official AWS ML Learning Plan, Udemy's AWS ML Speciality course, and other AWS online resources.
 
 ## Projects Overview
 
