@@ -4,38 +4,43 @@ This repository contains my experiments with both built-in and custom machine le
 
 ## Projects Overview
 
+### Basic SageMaker Notebooks
+- **linear_learner_minst.ipynb**: 
+  - Train a simple linear classifier for MINST classification.
+
+
 ### Deploy and Fine-Tune Pre-Trained LLMs on SageMaker Jumpstart
 
 - **Transformers_SageMaker.ipynb**: 
-  - Includes tokenization and positional encoding, self-attention techniques.
-  - Deploys GPT-2 in SageMaker notebooks using Huggingface.
+  - Apply tokenization, positional encoding, and self-attention.
+  - Deploy GPT-2 in SageMaker notebooks using Huggingface.
 
 - **text-generation-falcon.ipynb**: 
-  - Deploys the pre-trained Falcon models in SageMaker for various text generation tasks like summarization and question answering.
+  - Deploy the pre-trained Falcon models in SageMaker for various text generation tasks like summarisation and question answering.
 
 - **llama-2-finetuning.ipynb**: 
-  - Fine-tunes the pre-trained LLama-2 model for instruction-like text data in SageMaker.
+  - Fine-tune the pre-trained LLama-2 model on instruction-following text data in SageMaker.
 
 ### Detecting Bees in Images
 
-- Utilized a SageMaker pre-trained object detection algorithm (MXNet) to detect bees in images.
-- Performed further training on bee images from inaturalist.org with fine-tuned hyperparameters.
-- Used Amazon SageMaker Ground Truth for labeling the images.
+- Utilise a SageMaker pre-trained object detection algorithm (MXNet) to detect bees in images.
+- Perform further training on bee images from inaturalist.org with fine-tuned hyperparameters.
+- Use Amazon SageMaker Ground Truth for labelling the images.
 
 ### Movie Recommender with Factorization Machines
 
-- Built a movie recommender system using 100k ratings from the MovieLens dataset and the built-in Factorization Machines algorithm.
+- Build a movie recommender system using 100k ratings from the MovieLens dataset and the built-in Factorization Machines algorithm.
 
 ### Article Retrieval from Wikipedia using TF-IDF
 
-- Developed a PySpark Notebook on an EC2 instance with EMR clusters.
+- Develop a PySpark Notebook on an EC2 instance with EMR clusters.
 - Retrieved the most relevant Wikipedia articles for a given query by computing TF-IDF scores.
 
 ### Custom CNN for MINST Classification
 
-- Developed a custom CNN model in Keras for MINST classification.
-- Ran the model directly in a Jupyter Notebook connected to an EC2 instance.
-- Created a CNN model script for SageMaker, packaged it in a Keras container, and deployed it to an endpoint for prediction.
+- Develop a custom CNN model in Keras for MINST classification.
+- Run the model directly in a Jupyter Notebook connected to an EC2 instance.
+- Create a CNN model script for SageMaker, packaged it in a Keras container, and deployed it to an endpoint for prediction.
 
 ### Planned Projects
 
