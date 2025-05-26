@@ -4,6 +4,10 @@ This repository contains my experiments with both built-in and custom machine le
 
 ## Projects Overview
 
+### Langgraph
+- **langgraph.ipynb**:
+  - Websearch agent on langgraph hosted on SageMaker. 
+
 ### Basic SageMaker Notebooks
 - **linear_learner_minst.ipynb**: 
   - Train a simple linear classifier for MINST classification.
@@ -41,7 +45,3 @@ This repository contains my experiments with both built-in and custom machine le
 - Develop a custom CNN model in Keras for MINST classification.
 - Run the model directly in a Jupyter Notebook connected to an EC2 instance.
 - Create a CNN model script for SageMaker, packaged it in a Keras container, and deployed it to an endpoint for prediction.
-
-### Planned Projects
-
-- **TO ADD**: Mobile price classification using Random Forests and Scikit-Learn.
